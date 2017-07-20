@@ -1,0 +1,16 @@
+extends layout
+
+block content
+
+    .container(style="margin-top:100px")
+        form(method='post' , action='contact/send')
+            .form-group
+                label(for='name') YourGoodName:
+                input#name.form-control(type='text' , name='user')
+            .form-group
+                label(for='email') YourEmailAdress:
+                input#email.form-control(type='email' , name='email')
+            .form-group
+                label(for="text") YourMessageToUs:
+                textarea#text.form-control(name='message',rows="10" placeholder='enter message . . .')
+            button.btn.btn-default(type='submit') Submit

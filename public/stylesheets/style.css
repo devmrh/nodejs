@@ -1,0 +1,111 @@
+
+a {
+    color: #00B7FF;
+}
+
+.c1 {
+
+    background: url("../images/68615130-start-wallpapers.jpg") no-repeat;
+}
+
+.footer {
+    height: 40px;
+    background: #eeeeee;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.userpanel {
+    position: relative;
+    margin-bottom: 0;
+    top: 5px;
+}
+
+.userpanelcolapse {
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    width: 100%;
+    box-shadow: 1px 2px 7px #eee;
+    text-align: center;
+}
+
+.main-nav {
+    position: relative;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.panel-default > .panel-heading {
+    text-decoration: none;
+    text-align: center;
+}
+
+.shsh {
+    margin-top: 2px;
+    color: #2196F3;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand > img {
+    height: 100%;
+    width: auto;
+}
+
+.hrc {
+    border-top: 1px solid #8c8b8b;
+    text-align: center;
+}
+
+.hrc:after {
+    content: '<web/>';
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    padding: 0 -4px;
+    background: #fff;
+    color: #8c8b8b;
+    font-size: 15px;
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    transform: rotate(0deg);
+}
+
+.postlistc {
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0 0 29px 0 rgba(177, 177, 177, 0.68);
+}
+
+.postlist {
+
+    padding: 0;
+    list-style: none;
+}
+
+.postlist li {
+    display: inline-block
+}
+
+.postlist li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.post {
+    display: table;
+}
+.post > img {
+
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+}

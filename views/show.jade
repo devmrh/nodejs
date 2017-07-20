@@ -1,0 +1,9 @@
+extends layout
+block content
+    .show
+        h1=post.title
+        p.meta  posted is
+            a(href='/categories/show/#{post.category}') #{post.category} by : #{post.author} in : #{moment(post.date).format('LLLL')}
+            img(src="/images/uploads/#{post.mainimage}")
+            p.lead
+            !=post.body, 200

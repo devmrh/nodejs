@@ -1,0 +1,36 @@
+//extends layout
+//block content
+//    .container
+//        .h1 This is just user's dashboard test
+//        ul.errors
+//            if (errors)
+//                each error,i in  errors
+//                    li.alert.alert-danger #{error.msg}
+//        div.postlistc
+//            ul.postlist
+//                li
+//                    a(href="/") go home
+//                li
+//                    a(href="posts/add") add post
+//                li
+//                    a(href="categories/add") add categories
+//        div.post
+//            if posts
+//            for post, i in posts
+//                h1: a(href="/posts/show/#{post._id}")
+//                    =post.title
+//                p.meta  posted is
+//                    a(href='/categories/show/#{post.category}') #{post.category} by : #{post.author} in : #{moment(post.date).format('LLLL')}
+//                img(src="/images/uploads/#{post.mainimage}")
+//                p.lead
+//                    !=post.body
+//                a.more(href="/posts/show/#{post._id}") Read More
+//                hr.hrc
+//            else
+//                p.nopost there are no posts to show
+
+
+block content
+    if (posts)
+        for category, i in posts
+            div #{category.title}
